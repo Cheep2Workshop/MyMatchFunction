@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Cheep2Workshop/MyMathFunction/mmf"
+	"github.com/Cheep2Workshop/MyMatchFunction/mmf"
 )
 
 const (

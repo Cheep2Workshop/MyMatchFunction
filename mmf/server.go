@@ -11,7 +11,7 @@ import (
 
 type MatchFunctionService struct {
 	grpc               *grpc.Server
-	queryServiceClient pb.queryServiceClient
+	queryServiceClient pb.QueryServiceClient
 	port               int
 }
 
@@ -27,8 +27,8 @@ func Start(queryServiceAddr string, serverPort int) {
 	}
 
 	server := grpc.NewServer()
-	pb.RegisterMatchFuctionServer(server, &mmfService)
-	ln, err := net.Listen("tcp", fmt.Spritf(":%d", serverPort))
+	pb.RegisterMatchFunctionServer(server, &mmfService)
+	ln, err := net.Listen("tcp", fmt.Sprintf(":%d", serverPort))
 	if err != nil {
 		log.Fatalf("TCP net listener initialization failed for port %v, got %s", serverPort, err.Error())
 	}

@@ -11,12 +11,12 @@ const (
 	matchName = "basic-matchfunction"
 )
 
-func (s *MatchFunctionService) Run(req *pd.RunRequest, stream pb.MatchFunction_RunServer) error {
+func (s *MatchFunctionService) Run(req *pb.RunRequest, stream pb.MatchFunction_RunServer) error {
 	log.Printf("Generating proposals for function %v", req.GetProfile().GetName())
 
 	poolTickets, err := matchfunction.QueryPools(stream.Context(), s.queryServiceClient, req.GetProfile().GetPools())
-	if err != nill {
-		log.Printf("Failed to query tickets for the give pools, got %s, err.Error()")
+	if err != nil {
+		log.Printf("Failed to query tickets for the give pools, got %s", err.Error())
 		return err
 	}
 
