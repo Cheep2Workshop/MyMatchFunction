@@ -43,7 +43,7 @@ func makeMatches(p *pb.MatchProfile, poolTickets map[string][]*pb.Ticket) ([]*pb
 	var matches []*pb.Match
 	count := 0
 	for {
-		ticketsPerPoolPerMatch := 3
+		ticketsPerPoolPerMatch := 1
 		insufficientTickets := false
 		matchTickets := []*pb.Ticket{}
 		for pool, tickets := range poolTickets {
