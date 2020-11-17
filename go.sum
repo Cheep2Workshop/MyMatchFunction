@@ -18,8 +18,6 @@ dmitri.shuralyov.com/gpu/mtl v0.0.0-20190408044501-666a987793e9/go.mod h1:H6x//7
 github.com/Bose/minisentinel v0.0.0-20191213132324-b7726ed8ed71/go.mod h1:E4OavwrrOME3uj3Zm9Rla8ZDqlAR5GqKA+mMIPoilYk=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
-github.com/Cheep2Workshop/MyMatchFunction v0.0.0-20201116075350-a364059e32ed h1:hGdeVwCKeDRmPjRn07YzHSYjCTJGuiSbb5ibcgjcado=
-github.com/Cheep2Workshop/MyMatchFunction v0.0.0-20201116075350-a364059e32ed/go.mod h1:E/TaZBce5FGeNANLgzOGVdtOdbiAF5CltSngRCXLzOA=
 github.com/FZambia/sentinel v1.0.0/go.mod h1:ytL1Am/RLlAoAXG6Kj5LNuw/TRRQrv2rt2FT26vP5gI=
 github.com/Masterminds/semver v1.4.2/go.mod h1:MB6lktGJrhw8PrUyiEoblNEGEQ+RzHPF078ddwwvV3Y=
 github.com/Masterminds/sprig v2.15.0+incompatible/go.mod h1:y6hNFY5UBTIWBxnzTeuNhlNS5hqE0NB0E6fgfo2Br3o=
